@@ -7,6 +7,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight:400;
+    font-size: 18px;
     display:flex;
     flex-direction: column;
     max-width: 1440px;
@@ -21,6 +22,7 @@ body{
     -webkit-background-size: cover; /*Mozilla*/
     -o-background-size: cover; /*Opera*/
     background-color: hsl(193, 100%, 96%);
+    padding: 20px 40px 40px 40px;
 }
 
 header{
@@ -35,14 +37,8 @@ header{
     flex-direction: start;
 }
 .logo img{
-    width:40%;
+    width:50%;
     background-color: aqua;
-}
-
-.boton{
-    display:flex;
-    justify-content: flex-end;
-    background-color:green;
 }
 
 .boton a{
@@ -51,31 +47,77 @@ header{
     justify-content: center;
     position: relative;
     text-decoration: none; 
-    color:hsl(193, 100%, 96%);
     font-size: 14px;
-    font-weight: 400;
-        background-color:hsl(322, 100%, 66%);
-        border-radius: 40px;
-        width: 20%;
-        height: 45px;
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.164);
+    font-weight: 700;   
+    border-radius: 40px;    
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.164);
 }
 
-.boton a:hover { 
-    background-color: hsl(257, 59%, 61%); 
+.boton1{
+    display:flex;
+    justify-content: flex-end;
+    background-color:green;
+}
+
+.boton1 a{
+    background-color:white;
+    color:hsl(192, 100%, 9%);
+    width: 20%;
+    height: 45px;
+}
+
+.boton1 a:hover { 
+    background-color: hsl(322, 100%, 66%); 
     color:white;
 }
 
-.description h1{
+.boton2{
+    background-color:green;
+}
+
+.boton2 a{
+    background-color:hsl(322, 100%, 66%);
+    color:hsl(193, 100%, 96%);
+    width: 50%;
+    height: 50px
+}
+
+.boton1 a:hover { 
+    background-color:white;
+    color:hsl(192, 100%, 9%);
+}
+
+.description{
+    display:flex;
+    flex-direction: column;  
+    margin-top: 40px;
+    background-color: brown;
+}
+
+.fila1{
+    padding-top:25px;
+    background-color: aqua;
+}
+
+.fila h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
+.fila2{
+    padding-top:25px;
+    background-color: rgb(0, 255, 64);
+}
 
+.fila3{
+    padding-top:25px;
+    background-color: rgb(0, 26, 255);
+}
 
 .mockups{
     display:flex;
     justify-content: center;
+    margin-top: 40px;
     background-color: yellow;
 }
 
@@ -87,15 +129,49 @@ header{
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 20px 40px 40px 40px;
 }
 
 .card1{
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.164);    
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px 0 rgba(0, 0.164, 0.164, 0.164);    
     display:flex;
-    text-align: start;
+    justify-content: center;
+    background-color: pink;
 }
 
-.img1 .img2 .img3 img{
+.textcard1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align:flex-start;
+    background-color: blue;
+}
+.txt1{
+    margin-left:50px; 
+    background: cadetblue;
+}
+
+.txt2{
+    margin-left:50px;
+    padding-top:20px;
+    background-color: blueviolet;
+}
+
+.imgcard1{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.imgcard1 img{
+    width:50%;
+}
+.img2 img{
+    width:10%;
+}
+.img3 img{
     width:10%;
 }
 footer{
