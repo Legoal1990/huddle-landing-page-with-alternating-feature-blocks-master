@@ -32,11 +32,11 @@ header{
     background-color: blueviolet;
 }
 
-.logo{
+.logo1{
     display:flex;
     flex-direction: start;
 }
-.logo img{
+.logo1 img{
     width:50%;
     background-color: aqua;
 }
@@ -130,7 +130,7 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 20px 40px 40px 40px;
+    padding: 20px 40px 400px 40px;
 }
 
 .card1{
@@ -175,11 +175,13 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    position: absolute;
+    margin-top: 600px;
     padding: 20px 40px 20px 40px;
     background-color: purple;
     border-radius: 10px;
     box-shadow: 0px 0px 15px 0 rgba(0, 0.164, 0.164, 0.164);    
+    z-index:1;
 }
 .titulo{
     font-family: 'Poppins';
@@ -193,33 +195,72 @@ header{
 }
 
 footer{
-    background-color: hsl(192, 100%, 9%);
+    background: hsl(192, 100%, 9%);
     color:white;
-    width:100%;
-    font-size: 13px;
+    width:1440px;
+    font-size: 13px;  
+    margin-top: 150px; 
+}
+
+.logo{
+    display:flex;
+    flex-direction: start;
+    padding:120px 0px 20px 20px;
+}
+.logo img{
+    width:50%;
+    background-color: aqua;
+}
+
+.bloque2{
+    display:flex;
+    justify-content: center;
+    background-color: brown;
+    margin-left: 15px;
 }
 
 .contenedorfinal1{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;  
+    background-color: black;
 }
 
+.contenedorfinal2{
+    display:flex;
+    justify-content: flex-start;
+    background-color: greenyellow; 
+}
 .contenedorfinal3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display:flex;
+    justify-content: flex-start;
+    background-color: cyan; 
+}
+.contenedorfinal4{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: violet; 
+    margin-top:15px;
 }
 
-.enlaces a{
+.cfinal1{
+    margin-top:10px;
+}
+.nav{
+    line-height: 200%;
+}
+.nav a{
     text-decoration: none;
     color:white;
 }
+
 .redes{
     display: flex;
     justify-content: center;
-    margin:40px, 20px, 20px, 20px;    
+    align-items: center;
+    background-color: aqua;
+    
 }
 
 .redes a{
@@ -228,7 +269,7 @@ footer{
     border: solid 1px white;
     color:white;
     overflow:hidden; 
-    margin-left:10px;
+    margin:0px 8px 0px 8px;
 }
 
 .redes a span{
@@ -236,8 +277,12 @@ footer{
     justify-content: center;
     align-items: center;
     width: 30px;
-    height: 30px;    
+    height: 30px; 
+       
+    
 }
-
+.derechos{
+    margin:40px 0px 40px 0px;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
